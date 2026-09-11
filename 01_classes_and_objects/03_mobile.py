@@ -46,35 +46,3 @@ Write your solution below. Refer to solutions.md only when stuck.
 
 # Write your solution here:
 
-class Mobile:
-
-    def __init__(self, brand : str, model : str, total_storage : float, used_storage : float):
-        self.brand = brand
-        self.model = model
-        self.total_storage = total_storage
-        self.used_storage = used_storage
-
-    def free_storage(self):
-        return self.total_storage - self.used_storage
-
-    def install_app(self, app_name, app_size):
-        if app_size < self.free_storage():
-            self.used_storage = self.used_storage + app_size
-            print(f"{app_name} is installed in your device")
-            return True
-        else:
-            print(f"Not enough space for {app_name}")
-            return False
-
-    def uninstall_app(self, app_name, app_size):
-        self.used_storage = self.used_storage - app_size
-        print(f"{app_name} uninstalled. Freed {app_size} GB from your system.")
-
-    def display(self):
-        print(f"Brand: {self.brand}\nModel: {self.model}\n{self.used_storage} GB of {self.total_storage} is used")
-
-m = Mobile("Google", "Pixel 9", 128, 84)
-m.display()
-print(f"Available space: {m.free_storage()} GB")
-m.install_app("PUBG", 8)
-m.display()
