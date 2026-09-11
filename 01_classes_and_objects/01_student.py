@@ -45,9 +45,3 @@ Write your solution below. Refer to solutions.md only when stuck.
 """
 
 # Write your solution here:
-
-
-print(s1.avg_marks())
-print(s1.grade())
-s1.report()
-s2.report()
