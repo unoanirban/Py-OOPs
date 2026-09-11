@@ -46,35 +46,6 @@ Write your solution below. Refer to solutions.md only when stuck.
 
 # Write your solution here:
 
-class Student:
-
-    def __init__(self, name, roll, english_marks, math_marks, science_marks):
-        self.name = name
-        self.roll = roll
-        self.english_marks = english_marks
-        self.math_marks = math_marks
-        self.science_marks = science_marks
-
-    def avg_marks(self):
-        return (self.english_marks + self.math_marks + self.science_marks) / 3
-    
-    def grade(self):
-        if self.avg_marks() >= 90:
-            return "A"
-        elif self.avg_marks() >= 80:
-            return "B"
-        elif self.avg_marks() >= 70:
-            return "C"
-        elif self.avg_marks() >= 60:
-            return "D"
-        else:
-            return "F"
-    
-    def report(self):
-        print(f"Roll No: {self.roll} | Name: {self.name} | Average: {self.avg_marks()} | Grade: {self.grade()}")
-
-s1 = Student("Rohit Sharma", 45, 88, 92, 79)
-s2 = Student("Virat Kohli", 18, 99, 91, 97)
 
 print(s1.avg_marks())
 print(s1.grade())
