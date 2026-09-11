@@ -32,18 +32,18 @@ Each of the 15 concept folders is a self-contained learning module containing:
 
 | # | Concept Module | Key Mechanics Covered |
 | :-: | :--- | :--- |
-| **01** | [Classes and Objects](Python_OOP_Practice/01_classes_and_objects/README.md) | Blueprints, object instances, `self` parameter, `__dict__` namespace, identity vs equality. |
-| **02** | [Constructors and Instance Methods](Python_OOP_Practice/02_constructors_and_instance_methods/README.md) | `__init__`, invariant validation, mutator vs query methods, mutable default argument traps. |
-| **03** | [Class Attributes and Class Methods](Python_OOP_Practice/03_class_attributes_and_class_methods/README.md) | Class state, `@classmethod`, factory constructors (`from_csv`, `from_dict`), shadowing pitfalls. |
-| **04** | [Static Methods](Python_OOP_Practice/04_static_methods/README.md) | `@staticmethod`, stateless domain utilities, input validation, mathematical engines. |
-| **05** | [Encapsulation](Python_OOP_Practice/05_encapsulation/README.md) | Public, protected (`_`), and private (`__`), name mangling, state security, defensive copying. |
-| **06** | [Properties: Getters & Setters](Python_OOP_Practice/06_properties_getters_setters/README.md) | `@property`, `@setter`, computed attributes, non-breaking API refactoring, recursion traps. |
-| **07** | [Inheritance](Python_OOP_Practice/07_inheritance/README.md) | "Is-A" taxonomy, code reuse, type introspection (`isinstance`, `issubclass`). |
-| **08** | [Method Overriding and `super()`](Python_OOP_Practice/08_method_overriding_and_super/README.md) | Polymorphic specialization, extending vs replacing parent behavior, constructor chaining. |
-| **09** | [Multiple Inheritance & MRO](Python_OOP_Practice/09_multiple_inheritance/README.md) | Diamond Problem, C3 Linearization algorithm, `ClassName.mro()`, cooperative `super()`. |
-| **10** | [Polymorphism and Duck Typing](Python_OOP_Practice/10_polymorphism_and_duck_typing/README.md) | "If it walks like a duck...", uniform interfaces, EAFP principle, eliminating conditional branches. |
-| **11** | [Abstract Base Classes (ABCs)](Python_OOP_Practice/11_abstract_classes/README.md) | `abc.ABC`, `@abstractmethod`, formal interface contracts, Template Method design pattern. |
-| **12** | [Composition and Aggregation](Python_OOP_Practice/12_composition_and_aggregation/README.md) | "Has-A" relationships, strong composition vs weak aggregation, component delegation. |
-| **13** | [Dunder Methods & Operator Overloading](Python_OOP_Practice/13_dunder_methods_and_operator_overloading/README.md) | Python Data Model, `__str__` vs `__repr__`, math operators, `@total_ordering` comparisons. |
-| **14** | [Object Relationships & Design](Python_OOP_Practice/14_object_relationships_and_design/README.md) | Multi-object collaboration, bidirectional state synchronization, SOLID design principles. |
-| **15** | [Capstone Combined Projects](Python_OOP_Practice/15_combined_projects/README.md) | Large systems: Library Circulation, ATM & Banking Core, E-Commerce, and University ERP. |
+| **01** | [Classes and Objects](01_classes_and_objects/README.md) | Blueprints, object instances, `self` parameter, `__dict__` namespace, identity vs equality. |
+| **02** | [Constructors and Instance Methods](02_constructors_and_instance_methods/README.md) | `__init__`, invariant validation, mutator vs query methods, mutable default argument traps. |
+| **03** | [Class Attributes and Class Methods](03_class_attributes_and_class_methods/README.md) | Class state, `@classmethod`, factory constructors (`from_csv`, `from_dict`), shadowing pitfalls. |
+| **04** | [Static Methods](04_static_methods/README.md) | `@staticmethod`, stateless domain utilities, input validation, mathematical engines. |
+| **05** | [Encapsulation](05_encapsulation/README.md) | Public, protected (`_`), and private (`__`), name mangling, state security, defensive copying. |
+| **06** | [Properties: Getters & Setters](06_properties_getters_setters/README.md) | `@property`, `@setter`, computed attributes, non-breaking API refactoring, recursion traps. |
+| **07** | [Inheritance](07_inheritance/README.md) | "Is-A" taxonomy, code reuse, type introspection (`isinstance`, `issubclass`). |
+| **08** | [Method Overriding and `super()`](08_method_overriding_and_super/README.md) | Polymorphic specialization, extending vs replacing parent behavior, constructor chaining. |
+| **09** | [Multiple Inheritance & MRO](09_multiple_inheritance/README.md) | Diamond Problem, C3 Linearization algorithm, `ClassName.mro()`, cooperative `super()`. |
+| **10** | [Polymorphism and Duck Typing](10_polymorphism_and_duck_typing/README.md) | "If it walks like a duck...", uniform interfaces, EAFP principle, eliminating conditional branches. |
+| **11** | [Abstract Base Classes (ABCs)](11_abstract_classes/README.md) | `abc.ABC`, `@abstractmethod`, formal interface contracts, Template Method design pattern. |
+| **12** | [Composition and Aggregation](12_composition_and_aggregation/README.md) | "Has-A" relationships, strong composition vs weak aggregation, component delegation. |
+| **13** | [Dunder Methods & Operator Overloading](13_dunder_methods_and_operator_overloading/README.md) | Python Data Model, `__str__` vs `__repr__`, math operators, `@total_ordering` comparisons. |
+| **14** | [Object Relationships & Design](14_object_relationships_and_design/README.md) | Multi-object collaboration, bidirectional state synchronization, SOLID design principles. |
+| **15** | [Capstone Combined Projects](15_combined_projects/README.md) | Large systems: Library Circulation, ATM & Banking Core, E-Commerce, and University ERP. |
