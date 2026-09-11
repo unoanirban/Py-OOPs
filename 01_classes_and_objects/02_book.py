@@ -47,38 +47,3 @@ Write your solution below. Refer to solutions.md only when stuck.
 """
 
 # Write your solution here:
-
-class Book:
-
-    def __init__(self, title, author, price, stock):
-        self.title = title
-        self.author = author
-        self.price = price
-        self.stock = stock
-
-    def apply_discount(self, percentage):
-        if 1 <= percentage <= 100:
-            discount = self.price * percentage / 100 
-            self.price -= discount
-        else:
-            print("Invalid discount")
-
-    def in_stock(self):
-        return self.stock > 0
-
-    def sell(self, quantity):
-        if quantity <= self.stock:
-            self.stock -= quantity
-        else:
-            print("Not enough stock")
-    
-    def get_details(self):
-        return f"{self.title} by {self.author} - ${self.price:.2f} (Stock: {self.stock} copies)"
-
-b1 = Book("Clean Code", "Robert C. Martin", 45.0, 5)
-print(b1.get_details())
-b1.apply_discount(20)
-print(b1.price)
-print(b1.sell(3))
-print(b1.sell(5))
-print(b1.in_stock())
